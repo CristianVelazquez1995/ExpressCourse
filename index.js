@@ -9,7 +9,7 @@ const app = Express();
 // app.delete();
 
 app.get('/', (req, res) => {
-  res.send({ hi: 'there' });
+  res.send({ new: 'redeploy' });
 });
 
 const PORT = process.env.PORT || 5000;
