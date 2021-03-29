@@ -1,0 +1,16 @@
+1 - Dynamic Port Binding -> heorku tells the port to listen
+                            const PORT = process.env.PORT || 5000;
+
+2 - Specify Node Environment -> specify node version
+                                node -v
+                                npm -v
+
+                                in package.json -> "engines": {
+                                                            "node": "14.15.3",
+                                                            "npm": "6.14.9"
+                                                            },
+
+
+3 - Specify Start Script -> in package.json "scripts" place "start": "node index.js"
+
+4 - Create .gitignore file -> dont include dependencies because Heroku does that already 
