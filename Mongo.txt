@@ -1,0 +1,6 @@
+Mongo DB <- Collections <- Records
+
+Mongoose
+Model Class represents a single collection, has a bunch of functions designed to work with an entire collection (create or search records)
+
+Model Instances js objects that represent a single record inside a collection.
